@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		742CF9CA2A7D1BFC00A4C695 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9C92A7D1BFC00A4C695 /* UIView+Extension.swift */; };
+		742CF9CC2A80227A00A4C695 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9CB2A80227A00A4C695 /* CustomTextField.swift */; };
+		742CF9CE2A8022AE00A4C695 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9CD2A8022AE00A4C695 /* HeaderView.swift */; };
+		742CF9D02A8022C900A4C695 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9CF2A8022C900A4C695 /* TextFieldCell.swift */; };
+		742CF9D82A8023A800A4C695 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9D72A8023A800A4C695 /* ContactsController.swift */; };
+		742CF9DA2A816FA900A4C695 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9D92A816FA900A4C695 /* CoreDataManager.swift */; };
+		742CF9DD2A818E1000A4C695 /* CreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9DC2A818E1000A4C695 /* CreateViewModel.swift */; };
+		742CF9E02A818E9C00A4C695 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9DF2A818E9C00A4C695 /* Coordinator.swift */; };
+		742CF9E22A818EA500A4C695 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9E12A818EA500A4C695 /* AppCoordinator.swift */; };
+		742CF9E42A818EB500A4C695 /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9E32A818EB500A4C695 /* ContactsCoordinator.swift */; };
+		742CF9E62A818EC900A4C695 /* CreateCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9E52A818EC900A4C695 /* CreateCoordinator.swift */; };
+		742CF9E82A818F0400A4C695 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9E72A818F0400A4C695 /* MainCell.swift */; };
+		742CF9EA2A8190C900A4C695 /* PickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9E92A8190C900A4C695 /* PickerCoordinator.swift */; };
+		742CF9EF2A8191D000A4C695 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9EE2A8191D000A4C695 /* ContactsViewModel.swift */; };
+		742CF9F12A81925E00A4C695 /* FavoritePersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742CF9F02A81925E00A4C695 /* FavoritePersonCell.swift */; };
+		743D687B2A86C0870015A924 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743D687A2A86C0870015A924 /* Observable.swift */; };
+		744727FE2AD727F3001C0F2A /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744727FD2AD727F3001C0F2A /* DetailsVC.swift */; };
+		744728252ADC1133001C0F2A /* FavoriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744728242ADC1133001C0F2A /* FavoriteCell.swift */; };
+		744728282ADDC723001C0F2A /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 744728272ADDC723001C0F2A /* JGProgressHUD */; };
+		744728372AE2B7FF001C0F2A /* RehberUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744728362AE2B7FF001C0F2A /* RehberUnitTests.swift */; };
+		744728442AE2B818001C0F2A /* RehberUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744728432AE2B818001C0F2A /* RehberUITests.swift */; };
+		744728462AE2B818001C0F2A /* RehberUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744728452AE2B818001C0F2A /* RehberUITestsLaunchTests.swift */; };
+		7447284D2AE69779001C0F2A /* MockContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7447284C2AE69779001C0F2A /* MockContactsController.swift */; };
+		7459B1932AA5FB9B00490F77 /* SpecialLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459B1922AA5FB9B00490F77 /* SpecialLabel.swift */; };
+		7459B1952AA5FBBA00490F77 /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459B1942AA5FBBA00490F77 /* TableViewHeader.swift */; };
+		7480F8C927DA994C006B6DF5 /* Kisi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7480F8C827DA994B006B6DF5 /* Kisi.swift */; };
+		74C470FD27D0051E0087BAF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C470FC27D0051E0087BAF3 /* AppDelegate.swift */; };
+		74C470FF27D0051E0087BAF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C470FE27D0051E0087BAF3 /* SceneDelegate.swift */; };
+		74C4710127D0051E0087BAF3 /* CreateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C4710027D0051E0087BAF3 /* CreateUser.swift */; };
+		74C4710727D0051E0087BAF3 /* Contacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74C4710527D0051E0087BAF3 /* Contacts.xcdatamodeld */; };
+		74C4710927D0051F0087BAF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74C4710827D0051F0087BAF3 /* Assets.xcassets */; };
+		74C4710C27D0051F0087BAF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C4710A27D0051F0087BAF3 /* LaunchScreen.storyboard */; };
+		74E1296C2A8E572A001A355F /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1296B2A8E572A001A355F /* DetailCoordinator.swift */; };
+		74E1296E2A8E57D2001A355F /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1296D2A8E57D2001A355F /* DetailViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		744728382AE2B7FF001C0F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C470F127D0051E0087BAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C470F827D0051E0087BAF3;
+			remoteInfo = Rehber;
+		};
+		744728472AE2B818001C0F2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74C470F127D0051E0087BAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74C470F827D0051E0087BAF3;
+			remoteInfo = Rehber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		742CF9C92A7D1BFC00A4C695 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		742CF9CB2A80227A00A4C695 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		742CF9CD2A8022AE00A4C695 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		742CF9CF2A8022C900A4C695 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		742CF9D72A8023A800A4C695 /* ContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
+		742CF9D92A816FA900A4C695 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		742CF9DC2A818E1000A4C695 /* CreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewModel.swift; sourceTree = "<group>"; };
+		742CF9DF2A818E9C00A4C695 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		742CF9E12A818EA500A4C695 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		742CF9E32A818EB500A4C695 /* ContactsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCoordinator.swift; sourceTree = "<group>"; };
+		742CF9E52A818EC900A4C695 /* CreateCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCoordinator.swift; sourceTree = "<group>"; };
+		742CF9E72A818F0400A4C695 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		742CF9E92A8190C900A4C695 /* PickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerCoordinator.swift; sourceTree = "<group>"; };
+		742CF9EE2A8191D000A4C695 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		742CF9F02A81925E00A4C695 /* FavoritePersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePersonCell.swift; sourceTree = "<group>"; };
+		743D687A2A86C0870015A924 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		744727FD2AD727F3001C0F2A /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		744728242ADC1133001C0F2A /* FavoriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCell.swift; sourceTree = "<group>"; };
+		744728342AE2B7FF001C0F2A /* RehberUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehberUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		744728362AE2B7FF001C0F2A /* RehberUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberUnitTests.swift; sourceTree = "<group>"; };
+		744728412AE2B818001C0F2A /* RehberUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehberUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		744728432AE2B818001C0F2A /* RehberUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberUITests.swift; sourceTree = "<group>"; };
+		744728452AE2B818001C0F2A /* RehberUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehberUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7447284C2AE69779001C0F2A /* MockContactsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockContactsController.swift; sourceTree = "<group>"; };
+		7459B1922AA5FB9B00490F77 /* SpecialLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialLabel.swift; sourceTree = "<group>"; };
+		7459B1942AA5FBBA00490F77 /* TableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		7480F8C827DA994B006B6DF5 /* Kisi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kisi.swift; sourceTree = "<group>"; };
+		74C470F927D0051E0087BAF3 /* Rehber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rehber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74C470FC27D0051E0087BAF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74C470FE27D0051E0087BAF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74C4710027D0051E0087BAF3 /* CreateUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUser.swift; sourceTree = "<group>"; };
+		74C4710627D0051E0087BAF3 /* Rehber_Udemy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rehber_Udemy.xcdatamodel; sourceTree = "<group>"; };
+		74C4710827D0051F0087BAF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74C4710B27D0051F0087BAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74C4710D27D0051F0087BAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74E1296B2A8E572A001A355F /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		74E1296D2A8E57D2001A355F /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		744728312AE2B7FF001C0F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7447283E2AE2B818001C0F2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C470F627D0051E0087BAF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744728282ADDC723001C0F2A /* JGProgressHUD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		742CF9D12A8022F700A4C695 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				742CF9CB2A80227A00A4C695 /* CustomTextField.swift */,
+				742CF9F02A81925E00A4C695 /* FavoritePersonCell.swift */,
+				742CF9CD2A8022AE00A4C695 /* HeaderView.swift */,
+				742CF9E72A818F0400A4C695 /* MainCell.swift */,
+				7459B1942AA5FBBA00490F77 /* TableViewHeader.swift */,
+				744728242ADC1133001C0F2A /* FavoriteCell.swift */,
+				742CF9CF2A8022C900A4C695 /* TextFieldCell.swift */,
+				7459B1922AA5FB9B00490F77 /* SpecialLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		742CF9D22A80230300A4C695 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				74C470FC27D0051E0087BAF3 /* AppDelegate.swift */,
+				74C470FE27D0051E0087BAF3 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		742CF9D32A80234900A4C695 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74C4710027D0051E0087BAF3 /* CreateUser.swift */,
+				744727FD2AD727F3001C0F2A /* DetailsVC.swift */,
+				742CF9D72A8023A800A4C695 /* ContactsController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		742CF9D42A80235C00A4C695 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				74C4710A27D0051F0087BAF3 /* LaunchScreen.storyboard */,
+				74C4710827D0051F0087BAF3 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		742CF9D52A80237C00A4C695 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				742CF9C92A7D1BFC00A4C695 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		742CF9D62A80238400A4C695 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7480F8C827DA994B006B6DF5 /* Kisi.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		742CF9DB2A818DFA00A4C695 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74E1296D2A8E57D2001A355F /* DetailViewModel.swift */,
+				742CF9DC2A818E1000A4C695 /* CreateViewModel.swift */,
+				742CF9EE2A8191D000A4C695 /* ContactsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		742CF9DE2A818E4400A4C695 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				742CF9DF2A818E9C00A4C695 /* Coordinator.swift */,
+				742CF9E12A818EA500A4C695 /* AppCoordinator.swift */,
+				742CF9E32A818EB500A4C695 /* ContactsCoordinator.swift */,
+				74E1296B2A8E572A001A355F /* DetailCoordinator.swift */,
+				742CF9E52A818EC900A4C695 /* CreateCoordinator.swift */,
+				742CF9E92A8190C900A4C695 /* PickerCoordinator.swift */,
+				743D687A2A86C0870015A924 /* Observable.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		742CF9ED2A81917E00A4C695 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				742CF9D92A816FA900A4C695 /* CoreDataManager.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		744728352AE2B7FF001C0F2A /* RehberUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				744728362AE2B7FF001C0F2A /* RehberUnitTests.swift */,
+				7447284C2AE69779001C0F2A /* MockContactsController.swift */,
+			);
+			path = RehberUnitTests;
+			sourceTree = "<group>";
+		};
+		744728422AE2B818001C0F2A /* RehberUITests */ = {
+			isa = PBXGroup;
+			children = (
+				744728432AE2B818001C0F2A /* RehberUITests.swift */,
+				744728452AE2B818001C0F2A /* RehberUITestsLaunchTests.swift */,
+			);
+			path = RehberUITests;
+			sourceTree = "<group>";
+		};
+		74C470F027D0051E0087BAF3 = {
+			isa = PBXGroup;
+			children = (
+				74C470FB27D0051E0087BAF3 /* Rehber-Udemy */,
+				744728352AE2B7FF001C0F2A /* RehberUnitTests */,
+				744728422AE2B818001C0F2A /* RehberUITests */,
+				74C470FA27D0051E0087BAF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74C470FA27D0051E0087BAF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74C470F927D0051E0087BAF3 /* Rehber.app */,
+				744728342AE2B7FF001C0F2A /* RehberUnitTests.xctest */,
+				744728412AE2B818001C0F2A /* RehberUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74C470FB27D0051E0087BAF3 /* Rehber-Udemy */ = {
+			isa = PBXGroup;
+			children = (
+				742CF9D22A80230300A4C695 /* App */,
+				742CF9ED2A81917E00A4C695 /* Data */,
+				742CF9DE2A818E4400A4C695 /* Coordinator */,
+				742CF9DB2A818DFA00A4C695 /* ViewModel */,
+				742CF9D32A80234900A4C695 /* ViewControllers */,
+				742CF9D12A8022F700A4C695 /* Views */,
+				742CF9D62A80238400A4C695 /* Model */,
+				742CF9D42A80235C00A4C695 /* Resource */,
+				74C4710D27D0051F0087BAF3 /* Info.plist */,
+				742CF9D52A80237C00A4C695 /* Extension */,
+				74C4710527D0051E0087BAF3 /* Contacts.xcdatamodeld */,
+			);
+			path = "Rehber-Udemy";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		744728332AE2B7FF001C0F2A /* RehberUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7447283A2AE2B7FF001C0F2A /* Build configuration list for PBXNativeTarget "RehberUnitTests" */;
+			buildPhases = (
+				744728302AE2B7FF001C0F2A /* Sources */,
+				744728312AE2B7FF001C0F2A /* Frameworks */,
+				744728322AE2B7FF001C0F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				744728392AE2B7FF001C0F2A /* PBXTargetDependency */,
+			);
+			name = RehberUnitTests;
+			productName = RehberUnitTests;
+			productReference = 744728342AE2B7FF001C0F2A /* RehberUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		744728402AE2B818001C0F2A /* RehberUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744728492AE2B818001C0F2A /* Build configuration list for PBXNativeTarget "RehberUITests" */;
+			buildPhases = (
+				7447283D2AE2B818001C0F2A /* Sources */,
+				7447283E2AE2B818001C0F2A /* Frameworks */,
+				7447283F2AE2B818001C0F2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				744728482AE2B818001C0F2A /* PBXTargetDependency */,
+			);
+			name = RehberUITests;
+			productName = RehberUITests;
+			productReference = 744728412AE2B818001C0F2A /* RehberUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		74C470F827D0051E0087BAF3 /* Rehber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74C4712627D0051F0087BAF3 /* Build configuration list for PBXNativeTarget "Rehber" */;
+			buildPhases = (
+				74C470F527D0051E0087BAF3 /* Sources */,
+				74C470F627D0051E0087BAF3 /* Frameworks */,
+				74C470F727D0051E0087BAF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rehber;
+			packageProductDependencies = (
+				744728272ADDC723001C0F2A /* JGProgressHUD */,
+			);
+			productName = "Rehber-Udemy";
+			productReference = 74C470F927D0051E0087BAF3 /* Rehber.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74C470F127D0051E0087BAF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					744728332AE2B7FF001C0F2A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 74C470F827D0051E0087BAF3;
+					};
+					744728402AE2B818001C0F2A = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 74C470F827D0051E0087BAF3;
+					};
+					74C470F827D0051E0087BAF3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 74C470F427D0051E0087BAF3 /* Build configuration list for PBXProject "Rehber-Udemy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74C470F027D0051E0087BAF3;
+			packageReferences = (
+				744728262ADDC723001C0F2A /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
+			productRefGroup = 74C470FA27D0051E0087BAF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74C470F827D0051E0087BAF3 /* Rehber */,
+				744728332AE2B7FF001C0F2A /* RehberUnitTests */,
+				744728402AE2B818001C0F2A /* RehberUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		744728322AE2B7FF001C0F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7447283F2AE2B818001C0F2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C470F727D0051E0087BAF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74C4710C27D0051F0087BAF3 /* LaunchScreen.storyboard in Resources */,
+				74C4710927D0051F0087BAF3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		744728302AE2B7FF001C0F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7447284D2AE69779001C0F2A /* MockContactsController.swift in Sources */,
+				744728372AE2B7FF001C0F2A /* RehberUnitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7447283D2AE2B818001C0F2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744728462AE2B818001C0F2A /* RehberUITestsLaunchTests.swift in Sources */,
+				744728442AE2B818001C0F2A /* RehberUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C470F527D0051E0087BAF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743D687B2A86C0870015A924 /* Observable.swift in Sources */,
+				742CF9CC2A80227A00A4C695 /* CustomTextField.swift in Sources */,
+				742CF9EF2A8191D000A4C695 /* ContactsViewModel.swift in Sources */,
+				742CF9E22A818EA500A4C695 /* AppCoordinator.swift in Sources */,
+				742CF9EA2A8190C900A4C695 /* PickerCoordinator.swift in Sources */,
+				742CF9E82A818F0400A4C695 /* MainCell.swift in Sources */,
+				742CF9CA2A7D1BFC00A4C695 /* UIView+Extension.swift in Sources */,
+				742CF9E02A818E9C00A4C695 /* Coordinator.swift in Sources */,
+				74E1296C2A8E572A001A355F /* DetailCoordinator.swift in Sources */,
+				74E1296E2A8E57D2001A355F /* DetailViewModel.swift in Sources */,
+				74C4710727D0051E0087BAF3 /* Contacts.xcdatamodeld in Sources */,
+				74C4710127D0051E0087BAF3 /* CreateUser.swift in Sources */,
+				7480F8C927DA994C006B6DF5 /* Kisi.swift in Sources */,
+				742CF9D02A8022C900A4C695 /* TextFieldCell.swift in Sources */,
+				742CF9DA2A816FA900A4C695 /* CoreDataManager.swift in Sources */,
+				742CF9D82A8023A800A4C695 /* ContactsController.swift in Sources */,
+				742CF9E62A818EC900A4C695 /* CreateCoordinator.swift in Sources */,
+				7459B1932AA5FB9B00490F77 /* SpecialLabel.swift in Sources */,
+				744727FE2AD727F3001C0F2A /* DetailsVC.swift in Sources */,
+				742CF9E42A818EB500A4C695 /* ContactsCoordinator.swift in Sources */,
+				7459B1952AA5FBBA00490F77 /* TableViewHeader.swift in Sources */,
+				744728252ADC1133001C0F2A /* FavoriteCell.swift in Sources */,
+				74C470FD27D0051E0087BAF3 /* AppDelegate.swift in Sources */,
+				74C470FF27D0051E0087BAF3 /* SceneDelegate.swift in Sources */,
+				742CF9CE2A8022AE00A4C695 /* HeaderView.swift in Sources */,
+				742CF9F12A81925E00A4C695 /* FavoritePersonCell.swift in Sources */,
+				742CF9DD2A818E1000A4C695 /* CreateViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		744728392AE2B7FF001C0F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C470F827D0051E0087BAF3 /* Rehber */;
+			targetProxy = 744728382AE2B7FF001C0F2A /* PBXContainerItemProxy */;
+		};
+		744728482AE2B818001C0F2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74C470F827D0051E0087BAF3 /* Rehber */;
+			targetProxy = 744728472AE2B818001C0F2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74C4710A27D0051F0087BAF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74C4710B27D0051F0087BAF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7447283B2AE2B7FF001C0F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SJP4R9FL8;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sulunbatuhan.RehberUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rehber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rehber";
+			};
+			name = Debug;
+		};
+		7447283C2AE2B7FF001C0F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SJP4R9FL8;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sulunbatuhan.RehberUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rehber.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rehber";
+			};
+			name = Release;
+		};
+		7447284A2AE2B818001C0F2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SJP4R9FL8;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sulunbatuhan.RehberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rehber;
+			};
+			name = Debug;
+		};
+		7447284B2AE2B818001C0F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2SJP4R9FL8;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sulunbatuhan.RehberUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rehber;
+			};
+			name = Release;
+		};
+		74C4712427D0051F0087BAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74C4712527D0051F0087BAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74C4712727D0051F0087BAF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rehber-Udemy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sulunbatuhan.Rehber-Udemy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74C4712827D0051F0087BAF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rehber-Udemy/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sulunbatuhan.Rehber-Udemy";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7447283A2AE2B7FF001C0F2A /* Build configuration list for PBXNativeTarget "RehberUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7447283B2AE2B7FF001C0F2A /* Debug */,
+				7447283C2AE2B7FF001C0F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		744728492AE2B818001C0F2A /* Build configuration list for PBXNativeTarget "RehberUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7447284A2AE2B818001C0F2A /* Debug */,
+				7447284B2AE2B818001C0F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C470F427D0051E0087BAF3 /* Build configuration list for PBXProject "Rehber-Udemy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4712427D0051F0087BAF3 /* Debug */,
+				74C4712527D0051F0087BAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74C4712627D0051F0087BAF3 /* Build configuration list for PBXNativeTarget "Rehber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74C4712727D0051F0087BAF3 /* Debug */,
+				74C4712827D0051F0087BAF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		744728262ADDC723001C0F2A /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		744728272ADDC723001C0F2A /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 744728262ADDC723001C0F2A /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		74C4710527D0051E0087BAF3 /* Contacts.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74C4710627D0051E0087BAF3 /* Rehber_Udemy.xcdatamodel */,
+			);
+			currentVersion = 74C4710627D0051E0087BAF3 /* Rehber_Udemy.xcdatamodel */;
+			path = Contacts.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74C470F127D0051E0087BAF3 /* Project object */;
+}
